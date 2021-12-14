@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */ 
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding: .5em;
+  margin: .25em .1em;
+}
+
+p {
+  padding: .25em;
+  margin: .35em .1em;
+}
+
+/* Lorem */
+.lorem-title {
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+
+  font-family: Verdana, sans-serif;
+}
+
+.lorem-text {
+  font-size: 12pt;
+  text-indent: 1.5cm;
+  line-height: 1.5;
+
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+/* Example */
+.p-rounded-solid {
+  border: 1px solid black;
+  border-radius: 15%;
+}
+
+.p-solid {
+  border: 3px solid black;
+
+  margin-top: -1vh;
+}
+
+.p-dotted {
+  border: 2px dotted black;
+}
+
+/* Size */
+.w300 {
+  width: 300px;
+}
+
+.h100 {
+  height: 100px;
+}
+
+/* Tables */
+table {
+  margin: 1em;
+}
+
+/* Styled table */
+.styled>table {
+  text-align: right;
+  border: 3px double black;
+}
+
+.styled>table th {
+  border: 1px solid black;
+  background-color: gray;
+  padding: .5em;
+}
+
+.styled>table td {
+  border: 1px solid black;
+  padding: .3em;
+}
+
+/* Styled table with merged borders */
+.merged-borders>table {
+  text-align: right;
+  border-collapse: collapse;
+}
+
+.no-inner-borders>table {
+  text-align: right;
+  border-collapse: collapse;
+}
+
+/* Table without inner borders */
+.no-inner-borders>table th {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: gray;
+}
+
+.no-inner-borders>table td {
+  padding: .3em;
+}
+
+/* "Zebra" table */
+.zebra table {
+  text-align: right;
+  border-collapse: collapse;
+}
+
+.zebra th, .zebra td {
+  padding: .2em;
+}
+
+/* "Zebra"-column table */
+.zebra-column table {
+  text-align: right;
+  border-collapse: collapse;
+}
+
+.zebra-column th, .zebra-column td {
+  padding: .2em;
+}
+
+.zebra-column tr td:nth-child(2n + 1), .zebra-column tr th:nth-child(2n + 1) {  
+  background-color: lightgray;
+}
+
+.zebra-column tr td:nth-child(2n), .zebra-column tr th:nth-child(2n) {  
+  background-color: white;
+}
+
+.bg-image * {
+  background: none;
+}
+
+/* Table with background image */
+.bg-image table {
+  background-image: url(../images/background.jpg);
+  text-align: right;
+  border-collapse: collapse;
+}
+
+.bg-image th, .bg-image td {
+  padding: .2em;
+}
+
+/* Borders */
+.border-left {
+  border-left: 2px solid black;
+}
+
+.border-right {
+  border-right: 2px solid black;
+}
+
+.border-bottom {
+  border-bottom: 2px solid black;
+}
+
+/* Background */
+.bg-gray {
+  background-color: lightgray;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+/* Other */
+.wingdings {
+  font-family: "Wingdings", sans-serif;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
